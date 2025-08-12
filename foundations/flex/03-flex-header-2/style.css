@@ -12,6 +12,24 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-links{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
 }
 
 .profile-image {
@@ -27,6 +45,15 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.notification-image{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8px;
+  margin-right: 10px;  
 }
 
 button {
